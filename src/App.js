@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+import Shell from '@facts-kit/renderer';
 import './App.css';
 
+const PBJ = ({ data }) => {
+  return (
+    <>
+      <p>Peanut Butter: {data?.peanutbutter}</p>
+      <p>Jelly: {data?.jelly}</p>
+      <p>Bread: {data?.bread}</p>
+    </>
+  );
+};
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      Blah
+      <Shell tx="xTqt_wZlmkw3iz5t_05Ll1bTXs1BSpK6MFghXo-Fdao" child={<PBJ />} />
     </div>
   );
 }

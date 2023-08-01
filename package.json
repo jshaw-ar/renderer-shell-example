@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@facts-kit/renderer": "https://arweave.net/BQsLhkuZM_1ifG0EleDbf2_Uro0PMnyWK_q0PpJ-Jgs",
     "@testing-library/jest-dom": "5.17.0",
     "@testing-library/react": "13.4.0",
     "@testing-library/user-event": "13.5.0",
